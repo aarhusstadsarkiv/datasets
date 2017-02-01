@@ -11,8 +11,8 @@
   },
   "resources": [
     {
-      "name": "1787-normalized.csv",
-      "path": "1787-normalized.csv",
+      "name": "1787_normalized.csv",
+      "path": "1787_normalized.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "UTF-8",
@@ -61,7 +61,7 @@
           {
             "name": "gender",
             "type": "string",
-            "description": "Male og female. Can be blank."
+            "description": "Male og female. Possibly blank."
           },
           {
             "name": "family_position",
@@ -91,7 +91,7 @@
           {
             "name": "notes",
             "type": "string",
-            "description": "Notes from transcribers. Mostly around interpreting."
+            "description": "Notes from transcribers."
           }
         ]
       }
