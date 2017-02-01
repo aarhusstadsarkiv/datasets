@@ -12,7 +12,7 @@
   "resources": [
     {
       "name": "1787-normalized.csv",
-      "path": "data/1787-normalized.csv",
+      "path": "1787-normalized.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "UTF-8",
@@ -21,46 +21,46 @@
           {
             "name": "id",
             "type": "integer",
-            "description": ""
+            "description": "Curated id. Only unique within this dataset."
           },
           {
             "name": "county",
-            "type": "number",
-            "description": ""
+            "type": "string",
+            "description": "The county of which the parish is part."
           },
           {
             "name": "parish",
             "type": "string",
-            "description": ""
+            "description": "The parish  which the location is situated."
           },
           {
             "name": "location",
             "type": "string",
-            "description": ""
+            "description": "Specific location of the building."
           },
           {
             "name": "location_number",
-            "type": "number",
-            "description": ""
+            "type": "integer",
+            "description": "The number of the building."
           },
           {
             "name": "family_number",
-            "type": "string",
-            "description": ""
+            "type": "integer",
+            "description": "The number of the family."
           },
           {
             "name": "lastnames",
             "type": "string",
-            "description": ""
+            "description": "Lastname(s) of the person."
           },
           {
             "name": "firstnames",
             "type": "string",
-            "description": ""
+            "description": "Firstname(s) of the person."
           },
           {
             "name": "gender",
-            "type": "number",
+            "type": "string",
             "description": "Male og female. Can be blank."
           },
           {
@@ -70,7 +70,7 @@
           },
           {
             "name": "age",
-            "type": "string",
+            "type": "integer",
             "description": "Age of the person."
           },
           {
@@ -80,7 +80,7 @@
           },
           {
             "name": "marriage_number",
-            "type": "string",
+            "type": "integer",
             "description": "Indicating the number of the current marriage"
           },
           {
@@ -96,5 +96,5 @@
         ]
       }
     }
-  }
+  ]
 }
