@@ -1,0 +1,99 @@
+{
+  "name": "census-1787",
+  "title": "Data from the 1787-census",
+  "description": "",
+  "version": "1.0",
+  "license": {
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  },
+  "resources": [
+    {
+      "name": "1787-normalized.csv",
+      "path": "data/1787-normalized.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "county",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "parish",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "location_number",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "family_number",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "lastnames",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "firstnames",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "gender",
+            "type": "number",
+            "description": "Male og female. Can be blank."
+          },
+          {
+            "name": "family_position",
+            "type": "string",
+            "description": "Personal position in the household."
+          },
+          {
+            "name": "age",
+            "type": "string",
+            "description": "Age of the person."
+          },
+          {
+            "name": "marital_status",
+            "type": "string",
+            "description": "Marital status."
+          },
+          {
+            "name": "marriage_number",
+            "type": "string",
+            "description": "Indicating the number of the current marriage"
+          },
+          {
+            "name": "occupation",
+            "type": "string",
+            "description": "Occupation(s) of the person."
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Notes from transcribers. Mostly around interpreting."
+          }
+        ]
+      }
+    }
+  }
