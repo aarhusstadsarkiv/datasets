@@ -1,0 +1,110 @@
+{
+  "name": "census-1845",
+  "title": "Data from the 1845-census",
+  "description": "",
+  "version": "1.0",
+  "license": {
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  },
+  "resources": [
+    {
+      "name": "1845_normalized.csv",
+      "path": "1845_normalized.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "u_id",
+            "type": "integer",
+            "description": "Curated id. Only unique within this dataset."
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "The county of which the parish is part."
+          },
+          {
+            "name": "parish",
+            "type": "string",
+            "description": "The parish  which the location is situated."
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Specific location of the building."
+          },
+          {
+            "name": "location_number",
+            "type": "integer",
+            "description": "The number of the building."
+          },
+          {
+            "name": "building",
+            "type": "string",
+            "description": "Type of building."
+          },
+          {
+            "name": "house_number",
+            "type": "integer",
+            "description": "The number of house in the parish."
+          },
+          {
+            "name": "family_number",
+            "type": "integer",
+            "description": "The number of the family."
+          },
+          {
+            "name": "lastnames",
+            "type": "string",
+            "description": "Lastname(s) of the person."
+          },
+          {
+            "name": "firstnames",
+            "type": "string",
+            "description": "Firstname(s) of the person."
+          },
+          {
+            "name": "gender",
+            "type": "string",
+            "description": "Male og female. Possibly blank."
+          },
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age of the person."
+          },
+          {
+            "name": "marital_status",
+            "type": "string",
+            "description": "Marital status."
+          },
+          {
+            "name": "occupation",
+            "type": "string",
+            "description": "Occupation(s) of the person."
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Notes from transcribers."
+          }
+          {
+            "name": "born_county",
+            "type": "string",
+            "description": "The county in which the person is born."
+          },
+          {
+            "name": "born_parish",
+            "type": "string",
+            "description": "The parish in which the person is born."
+          }
+        ]
+      }
+    }
+  ]
+}
