@@ -19,7 +19,7 @@
       "schema": {
         "fields": [
           {
-            "name": "id",
+            "name": "u_id",
             "type": "integer",
             "description": "Curated id. Only unique within this dataset."
           },
