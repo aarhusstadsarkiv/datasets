@@ -90,49 +90,49 @@
             "description": "Notes from transcribers."
           }
           {
-            "name": "born_country",
+            "name": "country_of_birth",
             "type": "string",
             "description": "The country in which the person is born."
           },
           {
-            "name": "born_county",
+            "name": "county_of_birth",
             "type": "string",
-            "description": "The county in which the person is born."
+            "description": "The county in which the person was born."
           },
           {
-            "name": "born_parish",
+            "name": "parish_of_birth",
             "type": "string",
-            "description": "The parish in which the person is born."
-          }
+            "description": "The parish in which the person was born."
+          },
           {
-            "name": "born_place",
+            "name": "place_of_birth",
             "type": "string",
             "description": "The place in which the person is born."
-          }
+          },
           {
-            "name": "religion",
+            "name": "faith",
             "type": "string",
             "description": "The persons religious belief."
-          }
+          },
           {
             "name": "shire",
             "type": "string",
             "description": "The shire in which the county is located."
-          }
+          },
           {
             "name": "parish_number",
             "type": "string",
-            "description": "The parish number."
-          }
+            "description": "The parishnumber."
+          },
           {
             "name": "page",
             "type": "string",
-            "description": "The page."
-          }
+            "description": "The number of the page"
+          },
           {
             "name": "slok_number",
             "type": "string",
-            "description": "familynumber in the parish."
+            "description": "Familynumber in the parish."
           }
         ]
       }
