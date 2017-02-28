@@ -93,7 +93,7 @@
             "name": "notes",
             "type": "string",
             "description": "Notes from transcribers."
-          }
+          },
           {
             "name": "born_county",
             "type": "string",
