@@ -15,7 +15,7 @@
     {
       "name": "census-1801-normalized",
       "data": [
-        "census-1801_normalized.csv"
+        "census-1801-normalized.csv"
       ],
       "schema": {
         "fields": [
