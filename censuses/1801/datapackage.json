@@ -1,7 +1,6 @@
 {
   "name": "census-1801",
   "title": "Data from the 1801-census",
-  "description": "",
   "profile": "tabular-data-package",
   "last_modified": "2017-02-28",
   "licenses": [
