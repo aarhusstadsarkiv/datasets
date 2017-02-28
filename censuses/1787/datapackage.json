@@ -13,7 +13,10 @@
   ],
   "resources": [
     {
-      "name": "census-1787_normalized.csv",
+      "name": "census-1787-normalized",
+      "data": [
+        "census-1787-normalized.csv"
+      ],
       "schema": {
         "fields": [
           {
