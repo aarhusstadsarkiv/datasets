@@ -22,7 +22,7 @@
           {
             "name": "id",
             "type": "integer",
-            "description": "Curated id. Only unique within this dataset."
+            "description": "Id. Only unique within this dataset."
           },
           {
             "name": "county",
@@ -32,7 +32,7 @@
           {
             "name": "parish",
             "type": "string",
-            "description": "The parish  which the location is situated."
+            "description": "The parish in which the location is situated."
           },
           {
             "name": "location",
@@ -72,7 +72,7 @@
           {
             "name": "gender",
             "type": "string",
-            "description": "Male og female. Possibly blank."
+            "description": "Male or female. Possibly blank."
           },
           {
             "name": "age",
@@ -95,14 +95,14 @@
             "description": "Notes from transcribers."
           },
           {
-            "name": "born_county",
+            "name": "county_of_birth",
             "type": "string",
-            "description": "The county in which the person is born."
+            "description": "The county in which the person was born."
           },
           {
-            "name": "born_parish",
+            "name": "parish_of_birth",
             "type": "string",
-            "description": "The parish in which the person is born."
+            "description": "The parish in which the person was born."
           }
         ]
       }
