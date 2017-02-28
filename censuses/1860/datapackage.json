@@ -125,7 +125,7 @@
             "description": "The parishnumber."
           },
           {
-            "name": "page",
+            "name": "page_number",
             "type": "string",
             "description": "The number of the page"
           },
