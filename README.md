@@ -5,7 +5,7 @@ This is the home for some of the datasets that we curate. Each dataset is saved 
 * Resources such as data files that form the contents of the package
 
 ## Censuses
-We have transcribed the censuses from 1787, 1801, 1834, 1845 and 1860 from the following counties/parishes:
+We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from the following counties/parishes:
 
 * Randers
   * Egå, Hjortshøj, Mejlby, Skødstrup, Todbjerg
