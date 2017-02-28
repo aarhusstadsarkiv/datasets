@@ -1,0 +1,98 @@
+{
+  "name": "census-1787",
+  "title": "Data from the 1787-census",
+  "description": "",
+  "profile": "tabular-data-package",
+  "last_modified": "2017-02-28",
+  "licenses": [
+    {
+      "name": "Open Data Commons Public Domain",
+      "version": "1.0",
+      "uri": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "census-1787_normalized.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "description": "Curated id. Only unique within this dataset."
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "The county of which the parish is part."
+          },
+          {
+            "name": "parish",
+            "type": "string",
+            "description": "The parish  which the location is situated."
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Specific location of the building."
+          },
+          {
+            "name": "location_number",
+            "type": "integer",
+            "description": "The number of the building."
+          },
+          {
+            "name": "family_number",
+            "type": "integer",
+            "description": "The number of the family."
+          },
+          {
+            "name": "lastnames",
+            "type": "string",
+            "description": "Lastname(s) of the person."
+          },
+          {
+            "name": "firstnames",
+            "type": "string",
+            "description": "Firstname(s) of the person."
+          },
+          {
+            "name": "gender",
+            "type": "string",
+            "description": "Male og female. Possibly blank."
+          },
+          {
+            "name": "family_position",
+            "type": "string",
+            "description": "Personal position in the household."
+          },
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "Age of the person."
+          },
+          {
+            "name": "marital_status",
+            "type": "string",
+            "description": "Marital status."
+          },
+          {
+            "name": "marriage_number",
+            "type": "integer",
+            "description": "Indicating the number of the current marriage"
+          },
+          {
+            "name": "occupation",
+            "type": "string",
+            "description": "Occupation(s) of the person."
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Notes from transcribers."
+          }
+        ]
+      }
+    }
+  ]
+}
