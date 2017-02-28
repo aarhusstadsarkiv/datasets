@@ -1,4 +1,4 @@
-id,county,parish,location,location_number,family_number,lastnames,firstnames,gender,family_position,age,marital status,marriage_number,occupation,notes
+id,county,parish,location,location_number,family_number,lastnames,firstnames,gender,family_position,age,marital_status,marriage_number,occupation,notes
 1,Randers,Egå,Eggaae Bye,1,1,Jenssen,Rasmus,mand,Hosbonde,29,ugift,,Bonde og gaardbeboer,
 2,Randers,Egå,Eggaae Bye,1,1,Michelsdatter,Maren,kvinde,Hands Moder,69,enke,1,nyder Ophold af gaarden,
 3,Randers,Egå,Eggaae Bye,1,1,Willumssen,Morten,mand,tjenestekarl,24,ugift,,1 Karl,
