@@ -36,12 +36,17 @@
           {
             "name": "location",
             "type": "string",
-            "description": "Specific location of the building."
+            "description": "Location of the building."
           },
           {
             "name": "location_number",
             "type": "integer",
-            "description": "The number of the building."
+            "description": "The number of the location."
+          },
+          {
+            "name": "building",
+            "type": "string",
+            "description": "Stringlabel indicating the number or type of the building."
           },
           {
             "name": "family_number",
@@ -76,7 +81,7 @@
           {
             "name": "marital_status",
             "type": "string",
-            "description": "Marital status."
+            "description": "Marital status. Has one of the following values: Gift (married), Skilt (divorced), Enke (widow), Enkemand (widower), Ugift (not married), Separeret (divorced). Occationally blank."
           },
           {
             "name": "marriage_number",
