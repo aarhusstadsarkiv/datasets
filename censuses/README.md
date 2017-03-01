@@ -12,3 +12,6 @@ We currently have transcribed versions of the censuses from 1787, 1801, 1834, 18
 
 * #### Aarhus
    * Alrø, Astrup, Beder, Bjerager, Borum, Brabrand, Elev, Elsted, Falling, Foldby, Framlev, Fårup, Galten, Gosmer, Grundfør, Gylling, Hadsten, Haldum, Halling, Harlev, Hasle, Holme, Hundslund, Hvilsted, Kasted, Kolt, Lading, Lisbjerg, Lyngby, Lyngå, Malling, Mårslet, Nølev, Odder, Ormslev, Randlev, Sabro, Saksild, Sjelle, Skejby, Skivholme, Skovby, Skørring, Spørring, Stjær, Storring, Søften, Tilst, Tiset, Torrild, Tranbjerg, Trige, Tulstrup, Tunø, Vejlby, Viby, Vitten, Ølsted, Ørting, Åby, Århus Købstad, Årslev
+
+### Translations
+Translations of the central Danish words into English are listet in the translations.csv file.
