@@ -1,0 +1,194 @@
+danish,english,comment
+aftægtskone,female pensioner,opholdskone
+aftægtsmand,male pensioner,opholdsmand
+alder,age, 
+almisse,alms,almisselem  eng:  alms
+amme,nurse, 
+amt,county, 
+anført,mentioned,ikke anført  eng:  not mentioned
+apoteker,pharmacist, 
+arbejdsmand,unskilled labourer, 
+arkiv,archiv, 
+attest,certificate, 
+bager,baker, 
+barn,child,pl.  børn  eng: children
+betler,beggar, 
+bibliotek,library, 
+boel,small farm, 
+boelsmand,small-holder, 
+bogbinder,bookbinder, 
+bonde,farmer, 
+borgmester,mayor, 
+broder,brother, 
+brud,bride, 
+brudgom,bridegroom, 
+brygger,brewer, 
+boelsmand,small-holder, 
+buntmager,furrier, 
+by,village, 
+bygning,building, 
+bødker,cooper, 
+bøssemager,gunsmith, 
+civilstand,marital status, 
+daglejer,day labourer,olderly spelling  Dagleier
+datter,daughter, 
+degn,parish clerk, 
+deres,their, 
+discipel,pupil, 
+dragon,dragoon, 
+drejer,turner, 
+dreng,boy, 
+efternavn,surname, 
+enke,widow, 
+enkemand,widower, 
+er,is, 
+fader,father, 
+familie,family, 
+farver,dyer, 
+fattighus,poorhouse, 
+fattiglem,pauper, 
+feldbereder,skin dresser, 
+feltskærer,barber-surgeon, 
+fisker,fisherman, 
+folketælling,census,abb: i FT:   written in the census
+fornavn,first name, 
+forlovere,best men, 
+forsørges af,provided by, 
+forældre,parents, 
+fraskilt,divorced, 
+-fæster,copyhold,gårdfæster   eng:  tenant
+fæstegård,copyhold,(farm)
+fødesogn,native parish,fødeby   eng:  native town
+-gade,street, 
+gartner,gardener, 
+garver,tanner, 
+geworbne,enlisted, 
+gift,married, 
+glarmester,glazier, 
+guldsmed,goldsmith, 
+gæstgiver,innkeeper, 
+gørtler,brass moulder, 
+gård,farm,olderly spelling  Gaard
+gårdejer,farm,olderly spelling  Gaardeier
+gårdfæster,"copyholder, tenant",olderly spelling  Gaardfæster
+gårdmand,farmer,olderly spelling  Gaardmand
+handelsbetjent,shop assistant, 
+hans,his,Hans  is also a first name
+hendes,her, 
+herred,district, 
+hjemmeside,homepage, 
+hjulmand,wheelwright, 
+hovedgård,manor, 
+hus,house,olderly spelling  Huus
+husbond,husband,olderly spelling  Huusbond
+husejer,houseowner,olderly spelling  Huuseier
+husfader,"head of household, husband",olderly spelling  Huusfader
+husholderske,housekeeper,olderly spelling  Huusholderske
+husjomfru,housekeeper,olderly spelling  Huusjomfrue
+husmand,small-holder,olderly spelling  Huusmand
+husstand,household, 
+hustru,wife, 
+hyrde,herdsman, 
+høker,small shopkeeper, 
+håndarbejde,needlework,olderly spelling  Haandarbeide
+inderste,lodger,in a house
+indsidder,lodger,in a room at a farm
+jord,land, 
+jordlod,"land, plot", 
+kammager,comb maker, 
+karetmager,coach builder, 
+kirke,church,domkirke  eng: cathedral
+kirkebog,parish register,abb: i KB:  written in the parish register
+klodsmager,block maker, 
+kludesamler,ragman, 
+kobbersmed,coppersmith, 
+kokkepige,cook, 
+kone,"wife, woman", 
+kontorist,clerk, 
+konfirmation,confirmation, 
+kornmåler,corn measurer, 
+korporal,corporal, 
+kurvemager,basket maker, 
+købmand,storekeeper, 
+købstad,provincial tovn, 
+lever af,living by,also: ernærer sig ved
+logerende,"lodger, paying guest", 
+lærling,"pupil, apprentice", 
+løjtnant,lieutnant, 
+mand,"man, husband", 
+matros,sailor, 
+-mester,master,skomagermester  eng: shoemaker master
+moder,mother, 
+murer,bricklayer, 
+møller,miller,mølle  eng:  mill
+navn,name, 
+noter,notes, 
+nummer,number,nr.  is a shortening for  nummer
+nålemager,needle maker, 
+område,region, 
+pige,girl, 
+plejebarn,foster child,olderly spelling  Pleiebarn
+plejedatter,foster daughter,olderly spelling  Pleiedatter
+plejesøn,foster son,olderly spelling  Pleiesøn
+podemester,grafting master, 
+pottemager,potter, 
+præst,priest, 
+rebslager,ropemaker, 
+rådmand,alderman, 
+sadelmager,saddler, 
+selvejer,owner,olderly spelling  Selveier
+skilt,divorced, 
+skipper,skipper, 
+skoleholder,schoolmaster, until 1814
+skolelærer,"schoolmaster, teacher", 
+skolemester,schoolmaster, 
+skomager,shoemaker, 
+skovfoged,forester, 
+skrædder,tailor, 
+slagter,butcher, 
+slægt,family, 
+slægtning,relative, 
+slægtsforskning,genealogy, 
+slægtsnavn,family name, 
+smed,blacksmith, 
+snedker,"joiner, (carpenter)", 
+sogn,parish, 
+sognefoged,parish executive officer, 
+soldat,soldier, 
+spinderske,spinner, 
+stedsøn,stepson, 
+stenhugger,stone cutter, 
+stilling,employment, 
+stolemager,chair maker, 
+stuepige,parlourmaid, 
+styrmand,mate, 
+-svend,journeyman,snedkersvend  eng: journeyman joiner
+søgeresultat,searchresult, 
+sømand,seaman, 
+søn,son, 
+søster,sister, 
+tambur,drummer, 
+teglbrænder,tile maker, 
+tjenestedreng,farmer's boy,olderly spelling  Tienestedreng
+tjenestefolk,servants,olderly spelling  Tienestefolk
+tjenestekarl,"farmhand, farm labourer",olderly spelling  Tienestekarl
+tjenestepige,maid,olderly spelling  Tienestepige
+tobaksspinder,tobacco spinner, 
+toldbetjent,customs officer, 
+trolovelse,betrothal, 
+træskomager,clog maker, 
+typograf,typographer, 
+tømmermand,carpenter, 
+udvandre,emigrate, 
+ugift,unmarried, 
+urmager,watchmaker, 
+urtekræmmer,grocer, 
+uægte barn,illegitimate child, 
+vagtmester,principal officer, 
+vanfør,disabled, 
+vielse,marriage, 
+vognmand,carrier, 
+vægter,watchman, 
+værtshusholder,licensed victualler, 
+væver,weaver, 
+år,year,olderly spelling  Aar
