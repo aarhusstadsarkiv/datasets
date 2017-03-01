@@ -76,7 +76,7 @@
           {
             "name": "marital_status",
             "type": "string",
-            "description": "Marital status."
+            "description": "Marital status. Has one of the following values: Gift (married), Skilt (divorced), Enke (widow), Enkemand (widower), Ugift (not married), Forlovet (engaged)"
           },
           {
             "name": "marriage_number",
