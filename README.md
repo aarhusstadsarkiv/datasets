@@ -7,5 +7,8 @@ This is the home for some of our curated datasets. Each dataset is saved in its 
 ## Censuses
 We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from Rander, Skanderborg, Viborg og Aarhus.
 
+## Marriage Records
+We currently have transcribed versions of the marriage records from 1750 to 1891.
+
 ## Minutes
 We have transcribed the minutes from the City Counsil of Aarhus from 1867 to 1940.
