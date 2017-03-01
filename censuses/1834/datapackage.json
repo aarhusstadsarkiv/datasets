@@ -47,12 +47,12 @@
           {
             "name": "building",
             "type": "string",
-            "description": "Type of building."
+            "description": "The type of the building."
           },
           {
             "name": "house_number",
             "type": "integer",
-            "description": "The number of house in the parish."
+            "description": "The number of the house."
           },
           {
             "name": "family_number",
@@ -72,7 +72,7 @@
           {
             "name": "gender",
             "type": "string",
-            "description": "Male og female. Possibly blank."
+            "description": "Male (mand) or female (kvinde). Possibly blank."
           },
           {
             "name": "age",
@@ -82,7 +82,7 @@
           {
             "name": "marital_status",
             "type": "string",
-            "description": "Marital status."
+            "description": "Marital status. Has one of the following values: Gift (married), Skilt (divorced), Enke (widow), Enkemand (widower), Ugift (not married), Separeret (divorced), Forlovet (engaged). Occationally blank."
           },
           {
             "name": "occupation",
