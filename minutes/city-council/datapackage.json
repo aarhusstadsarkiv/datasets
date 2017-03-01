@@ -2,7 +2,7 @@
   "name": "city-council-minutes",
   "title": "Data from the published City Council Minutes",
   "profile": "tabular-data-package",
-  "last_modified": "2017-02-28",
+  "last_modified": "2017-03-01",
   "licenses": [
     {
       "name": "Open Data Commons Public Domain",
@@ -12,7 +12,7 @@
   ],
   "resources": [
     {
-      "name": "city-council-minutes_1901-1940",
+      "name": "city-council-minutes",
       "data": [
         "city-council-minutes-1901-1940.csv"
       ],
