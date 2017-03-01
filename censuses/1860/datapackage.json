@@ -67,7 +67,7 @@
           {
             "name": "gender",
             "type": "string",
-            "description": "Male og female. Possibly blank."
+            "description": "Male (mand) og female (kvinde). Possibly blank."
           },
           {
             "name": "age",
@@ -77,7 +77,7 @@
           {
             "name": "marital_status",
             "type": "string",
-            "description": "Marital status."
+            "description": "Marital status. Has one of the following values: Gift (married), Skilt (divorced), Enke (widow), Enkemand (widower), Ugift (not married). Occationally blank."
           },
           {
             "name": "occupation",
@@ -122,7 +122,7 @@
           {
             "name": "parish_number",
             "type": "string",
-            "description": "The parishnumber."
+            "description": "The number of the parish."
           },
           {
             "name": "page_number",
@@ -132,7 +132,7 @@
           {
             "name": "slok_number",
             "type": "string",
-            "description": "Familynumber in the parish."
+            "description": "Familynumber in the parish (?)."
           }
         ]
       }
