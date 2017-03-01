@@ -61,7 +61,7 @@
           {
             "name": "gender",
             "type": "string",
-            "description": "Male (mand) or female (kvinde). Possibly blank."
+            "description": "Male (mand) or female (kvinde)."
           },
           {
             "name": "family_position",
