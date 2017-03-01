@@ -72,7 +72,7 @@
           {
             "name": "gender",
             "type": "string",
-            "description": "Male or female. Possibly blank."
+            "description": "Male (mand) or female (kvinde). Possibly blank."
           },
           {
             "name": "age",
@@ -82,7 +82,7 @@
           {
             "name": "marital_status",
             "type": "string",
-            "description": "Marital status."
+            "description": "Marital status. Has one of the following values: Gift (married), Ugift (not married), Enke (widow), Enkemand (widower). Occationally blank."
           },
           {
             "name": "occupation",
