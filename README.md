@@ -1,8 +1,8 @@
 # Datasets
-This is the home for some of the datasets that we curate. Each dataset is saved in its own folder as a [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/), which consists of:
+This is the home for some of the datasets that we curate. Each dataset is saved in its own folder as a [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/) with the following content:
 
-* A "datapackage.json" file that describes the structure and contents of the package
-* Resources such as data files that form the contents of the package
+* A "datapackage.json"-file that describes the structure and contents of the package
+* One or more data files that form the contents of the package
 
 ## Censuses
 We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from the following county/parish combinations:
