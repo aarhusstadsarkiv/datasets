@@ -7,6 +7,9 @@ This is the home for some of our curated datasets. Each dataset is saved in its 
 ## Censuses
 We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from Rander, Skanderborg, Viborg og Aarhus.
 
+## Citizenship Records
+We currently have transcribed versions of the citizenship records from 1740 to 1862.
+
 ## Marriage Records
 We currently have transcribed versions of the marriage records from 1750 to 1891.
 
