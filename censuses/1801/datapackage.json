@@ -12,6 +12,101 @@
   ],
   "resources": [
     {
+      "name": "census-1801-original",
+      "data": [
+        "census-1801-original.csv"
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "ft",
+            "type": "integer",
+            "description": "The year of the census."
+          },
+          {
+            "name": "sogn",
+            "type": "string",
+            "description": "The parish in which the location is situated."
+          },
+          {
+            "name": "amt",
+            "type": "string",
+            "description": "The county of which the parish is part."
+          },
+          {
+            "name": "id",
+            "type": "integer",
+            "description": "The number of the person. Unique within the census_year and parish."
+          },
+          {
+            "name": "loknr",
+            "type": "integer",
+            "description": "The number of the building."
+          },
+          {
+            "name": "lokalitet",
+            "type": "string",
+            "description": "Specific location of the building."
+          },
+          {
+            "name": "bygning",
+            "type": "string",
+            "description": "Describes or numbers the building."
+          },
+          {
+            "name": "famnr",
+            "type": "integer",
+            "description": "The number of the family. Unique within the location (lokalitet)."
+          },
+          {
+            "name": "fnavn",
+            "type": "string",
+            "description": "Firstname(s) of the person."
+          },
+          {
+            "name": "enavn",
+            "type": "string",
+            "description": "Lastname(s) of the person."
+          },
+          {
+            "name": "koen",
+            "type": "string",
+            "description": "Mostly male (M) or female (K). Other encoded values and blanks occur."
+          },
+          {
+            "name": "famstand",
+            "type": "string",
+            "description": "Personal position in the household."
+          },
+          {
+            "name": "alder",
+            "type": "integer",
+            "description": "Age of the person."
+          },
+          {
+            "name": "civilstand",
+            "type": "string",
+            "description": "Marital status. Usually one of the following values: gift (married), skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married)."
+          },
+          {
+            "name": "giftnr",
+            "type": "integer",
+            "description": "Indicating the number of the current marriage."
+          },
+          {
+            "name": "erhverv",
+            "type": "string",
+            "description": "Occupation(s) of the person."
+          },
+          {
+            "name": "notater",
+            "type": "string",
+            "description": "Notes from transcribers."
+          }
+        ]
+      }
+    },
+    {
       "name": "census-1801-normalized",
       "data": [
         "census-1801-normalized.csv"
@@ -19,82 +114,104 @@
       "schema": {
         "fields": [
           {
-            "name": "id",
+            "name": "ft",
+            "name_en": "census_year",
             "type": "integer",
-            "description": "Curated id. Only unique within this dataset."
+            "description": "The year of the census."
           },
           {
-            "name": "county",
+            "name": "sogn",
+            "name_en": "parish",
+            "type": "string",
+            "description": "The parish in which the location is situated."
+          },
+          {
+            "name": "amt",
+            "name_en": "county",
             "type": "string",
             "description": "The county of which the parish is part."
           },
           {
-            "name": "parish",
-            "type": "string",
-            "description": "The parish  which the location is situated."
+            "name": "id",
+            "name_en": "id",
+            "type": "integer",
+            "description": "The number of the person. Unique within the census_year and parish."
           },
           {
-            "name": "location",
+            "name": "loknr",
+            "name_en": "location_number",
+            "type": "integer",
+            "description": "The number of the building. Unique within the location (lokalitet)"
+          },
+          {
+            "name": "lokalitet",
+            "name_en": "location",
             "type": "string",
             "description": "Location of the building."
           },
           {
-            "name": "location_number",
-            "type": "integer",
-            "description": "The number of the location."
-          },
-          {
-            "name": "building",
+            "name": "bygning",
+            "name_en": "building",
             "type": "string",
-            "description": "Stringlabel indicating the number or type of the building."
+            "description": "Describes or numbers the building. Often blank."
           },
           {
-            "name": "family_number",
+            "name": "famnr",
+            "name_en": "family_number",
             "type": "integer",
-            "description": "The number of the family."
+            "description": "The number of the family. Unique within the location (lokalitet)."
           },
           {
-            "name": "lastnames",
-            "type": "string",
-            "description": "Lastname(s) of the person."
-          },
-          {
-            "name": "firstnames",
+            "name": "fnavn",
+            "name_en": "firstnames",
             "type": "string",
             "description": "Firstname(s) of the person."
           },
           {
-            "name": "gender",
+            "name": "enavn",
+            "name_en": "lastnames",
             "type": "string",
-            "description": "Male og female. Possibly blank."
+            "description": "Lastname(s) of the person."
           },
           {
-            "name": "family_position",
+            "name": "koen",
+            "name_en": "gender",
+            "type": "string",
+            "description": "Male (mand) or female (kvinde). Blanks occur."
+          },
+          {
+            "name": "famstand",
+            "name_en": "family_position",
             "type": "string",
             "description": "Personal position in the household."
           },
           {
-            "name": "age",
+            "name": "alder",
+            "name_en": "age",
             "type": "integer",
             "description": "Age of the person."
           },
           {
-            "name": "marital_status",
+            "name": "civilstand",
+            "name_en": "marital_status",
             "type": "string",
-            "description": "Marital status. Has one of the following values: Gift (married), Skilt (divorced), Enke (widow), Enkemand (widower), Ugift (not married), Separeret (divorced). Occationally blank."
+            "description": "Marital status. Has one of the following values: gift (married), skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married)."
           },
           {
-            "name": "marriage_number",
+            "name": "giftnr",
+            "name_en": "marriage_number",
             "type": "integer",
-            "description": "Indicating the number of the current marriage"
+            "description": "Indicating the number of the current marriage."
           },
           {
-            "name": "occupation",
+            "name": "erhverv",
+            "name_en": "occupation",
             "type": "string",
             "description": "Occupation(s) of the person."
           },
           {
-            "name": "notes",
+            "name": "notater",
+            "name_en": "notes",
             "type": "string",
             "description": "Notes from transcribers."
           }
