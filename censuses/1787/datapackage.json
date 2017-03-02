@@ -36,7 +36,7 @@
           {
             "name": "id",
             "type": "integer",
-            "description": "The unique number of the person, relative to the census_year and parish."
+            "description": "The number of the person. Unique in combination with the census_year and parish."
           },
           {
             "name": "loknr",
@@ -56,7 +56,7 @@
           {
             "name": "famnr",
             "type": "integer",
-            "description": "The unique number of the family, relative to the location (lokalitet)."
+            "description": "The number of the family. Unique in combination with the location (lokalitet)."
           },
           {
             "name": "fnavn",
@@ -135,7 +135,7 @@
             "name": "id",
             "name_en": "id",
             "type": "integer",
-            "description": "The unique number of the person, relative to the census_year and parish."
+            "description": "The number of the person. Unique in combination with the census_year and parish."
           },
           {
             "name": "loknr",
@@ -159,7 +159,7 @@
             "name": "famnr",
             "name_en": "family_number",
             "type": "integer",
-            "description": "The unique number of the family, relative to the location (lokalitet)."
+            "description": "The number of the family. Unique in combination with the location (lokalitet)."
           },
           {
             "name": "fnavn",
