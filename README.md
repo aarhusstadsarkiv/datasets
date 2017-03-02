@@ -5,7 +5,7 @@ This is the home for some of our curated datasets. Each dataset is saved in its 
 * One or more data files that constitute the contents of the package
 
 ## Censuses
-We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from Rander, Skanderborg, Viborg og Aarhus.
+We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from Randers, Skanderborg, Viborg og Aarhus.
 
 ## Citizenship Records
 We currently have transcribed versions of the citizenship records from 1740 to 1862.
