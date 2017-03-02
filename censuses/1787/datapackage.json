@@ -2,7 +2,7 @@
   "name": "census-1787",
   "title": "Data from the 1787-census",
   "profile": "tabular-data-package",
-  "last_modified": "2017-02-28",
+  "last_modified": "2017-03-02",
   "licenses": [
     {
       "name": "Open Data Commons Public Domain",
