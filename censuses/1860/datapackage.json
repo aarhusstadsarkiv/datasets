@@ -85,6 +85,11 @@
             "description": "Unknown numbering."
           },
           {
+            "name": "navn",
+            "type": "string",
+            "description": "Merge of 'fnavn' and 'enavn'."
+          },
+          {
             "name": "fnavn",
             "type": "string",
             "description": "Firstname(s) of the person."
@@ -105,9 +110,14 @@
             "description": "Age of the person."
           },
           {
+            "name": "scivil",
+            "type": "string",
+            "description": "Marital status. Shortened version of 'civilstand'."
+          },
+          {
             "name": "civilstand",
             "type": "string",
-            "description": "Marital status. Blank or one of the following values: gift (married), skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married)."
+            "description": "Marital status. Usually one of the following values: gift (married), skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married)."
           },
           {
             "name": "foedested",
@@ -305,7 +315,7 @@
           },
           {
             "name": "sn",
-            "name_en": "",
+            "name_en": "sn",
             "type": "string",
             "description": "Unknown indicator."
           },
