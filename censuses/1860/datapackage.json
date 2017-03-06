@@ -13,16 +13,16 @@
   ],
   "resources": [
     {
-      "name": "census-1860-normalized",
+      "name": "census-1860-original",
       "data": [
-        "census-1860-normalized.csv"
+        "census-1860-original.csv"
       ],
       "schema": {
         "fields": [
           {
             "name": "kipnr",
             "type": "string",
-            "description": "Reference to the original number of the transcription-job. Assigned by the National Archives as part of a crowdsourcing-project."
+            "description": "Reference to the original number of the transcription-job. Assigned by the National Archives as part of a crowdsourcing-project. Occationally blank."
           },
           {
             "name": "ft",
@@ -47,17 +47,17 @@
           {
             "name": "sognenr",
             "type": "integer",
-            "description": "The number of the person. Unique within the census_year and parish."
+            "description": "The number of the parish."
           },
           {
-            "name": "id",
+            "name": "nr",
             "type": "integer",
-            "description": "The number of the person. Unique within the census_year and parish."
+            "description": "The number of the person. Unique within the kipnr."
           },
           {
-            "name": "loknr",
-            "type": "integer",
-            "description": "The number of the building."
+            "name": "folie",
+            "type": "string",
+            "description": "The page-number from the original written protocol."
           },
           {
             "name": "lokalitet",
@@ -65,19 +65,24 @@
             "description": "Specific location of the building."
           },
           {
-            "name": "ejendom",
+            "name": "husnr",
             "type": "string",
-            "description": "Number and (sometimes) letter of the building."
+            "description": "The number, letter and/or interval of the house within the location (lokalitet)."
           },
           {
-            "name": "nr",
+            "name": "bygning",
             "type": "string",
-            "description": "Description of the building?"
+            "description": "Description of (possibly specific part of) the building."
+          },
+          {
+            "name": "sloknr",
+            "type": "integer",
+            "description": "Unknown numbering."
           },
           {
             "name": "husstand",
-            "type": "string",
-            "description": "The number of the family. Relative to the housing."
+            "type": "integer",
+            "description": "Unknown numbering."
           },
           {
             "name": "fnavn",
@@ -102,25 +107,45 @@
           {
             "name": "civilstand",
             "type": "string",
-            "description": "Marital status. Usually one of the following values: gift (married), fraskilt/skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married), forlovet (engaged)."
+            "description": "Marital status. Blank or one of the following values: gift (married), skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married)."
           },
           {
-            "name": "fsogn",
+            "name": "foedested",
+            "type": "string",
+            "description": "Place of birth."
+          },
+          {
+            "name": "foedesogn",
             "type": "string",
             "description": "Parish of birth."
           },
           {
-            "name": "famt",
+            "name": "foedeamt",
             "type": "string",
             "description": "County of birth."
           },
           {
-            "name": "erhverv",
+            "name": "foedeland",
+            "type": "string",
+            "description": "Country of birth. Very inconsisteent."
+          },
+          {
+            "name": "stilling",
             "type": "string",
             "description": "Occupation(s) of the person."
           },
           {
-            "name": "notater",
+            "name": "tro",
+            "type": "string",
+            "description": "Religious conviction of the person."
+          },
+          {
+            "name": "sn",
+            "type": "string",
+            "description": "Unknown indicator."
+          },
+          {
+            "name": "noter",
             "type": "string",
             "description": "Notes from transcribers."
           }
@@ -135,6 +160,12 @@
       "schema": {
         "fields": [
           {
+            "name": "kipnr",
+            "name_en": "kip_number",
+            "type": "string",
+            "description": "Reference to the original number of the transcription-job. Assigned by the National Archives as part of a crowdsourcing-project. Occationally blank."
+          },
+          {
             "name": "ft",
             "name_en": "census_year",
             "type": "integer",
@@ -147,22 +178,34 @@
             "description": "The parish in which the location is situated."
           },
           {
+            "name": "herred",
+            "name_en": "shire",
+            "type": "string",
+            "description": "The shire of which the parish is part."
+          },
+          {
             "name": "amt",
             "name_en": "county",
             "type": "string",
             "description": "The county of which the parish is part."
           },
           {
-            "name": "id",
-            "name_en": "id",
+            "name": "sognenr",
+            "name_en": "parish_number",
             "type": "integer",
-            "description": "The number of the person. Unique within the census_year and parish."
+            "description": "The number of the parish."
           },
           {
-            "name": "loknr",
-            "name_en": "location_number",
+            "name": "nr",
+            "name_en": "number",
             "type": "integer",
-            "description": "The number of the building."
+            "description": "The number of the person. Unique within the kipnr."
+          },
+          {
+            "name": "folie",
+            "name_en": "page",
+            "type": "string",
+            "description": "The page-number from the original written protocol."
           },
           {
             "name": "lokalitet",
@@ -171,22 +214,28 @@
             "description": "Specific location of the building."
           },
           {
-            "name": "ejendom",
-            "name_en": "building",
+            "name": "husnr",
+            "name_en": "house_number",
             "type": "string",
-            "description": "Number and (sometimes) letter of the building."
+            "description": "The number, letter and/or interval of the house within the location (lokalitet)."
           },
           {
-            "name": "nr",
-            "name_en": "building_number",
+            "name": "bygning",
+            "name_en": "building",
             "type": "string",
-            "description": "Description of the building?"
+            "description": "Description of (possibly specific part of) the building."
+          },
+          {
+            "name": "sloknr",
+            "name_en": "slok_number",
+            "type": "integer",
+            "description": "Unknown numbering."
           },
           {
             "name": "husstand",
             "name_en": "family_number",
-            "type": "string",
-            "description": "The number of the family. Relative to the housing."
+            "type": "integer",
+            "description": "Unknown numbering."
           },
           {
             "name": "fnavn",
@@ -204,7 +253,7 @@
             "name": "koen",
             "name_en": "gender",
             "type": "string",
-            "description": "Mostly male (M) or female (K). Other encoded values and blanks occur."
+            "description": "Gender. Mostly male (M) or female (K). Other encoded values and blanks occur."
           },
           {
             "name": "alder",
@@ -216,28 +265,52 @@
             "name": "civilstand",
             "name_en": "marital_status",
             "type": "string",
-            "description": "Marital status. Usually one of the following values: gift (married), fraskilt/skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married), forlovet (engaged)."
+            "description": "Marital status. Blank or one of the following values: gift (married), skilt (divorced), separeret (divorced), enke (widow), enkemand (widower), ugift (not married)."
           },
           {
-            "name": "fsogn",
+            "name": "foedested",
+            "name_en": "place_of_birth",
+            "type": "string",
+            "description": "Place of birth."
+          },
+          {
+            "name": "foedesogn",
             "name_en": "parish_of_birth",
             "type": "string",
             "description": "Parish of birth."
           },
           {
-            "name": "famt",
+            "name": "foedeamt",
             "name_en": "county_of_birth",
             "type": "string",
             "description": "County of birth."
           },
           {
-            "name": "erhverv",
+            "name": "foedeland",
+            "name_en": "country_of_birth",
+            "type": "string",
+            "description": "Country of birth. Very inconsisteent."
+          },
+          {
+            "name": "stilling",
             "name_en": "occupation",
             "type": "string",
             "description": "Occupation(s) of the person."
           },
           {
-            "name": "notater",
+            "name": "tro",
+            "name_en": "religious_conviction",
+            "type": "string",
+            "description": "Religious conviction of the person."
+          },
+          {
+            "name": "sn",
+            "name_en": "",
+            "type": "string",
+            "description": "Unknown indicator."
+          },
+          {
+            "name": "noter",
             "name_en": "notes",
             "type": "string",
             "description": "Notes from transcribers."
