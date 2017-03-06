@@ -2,7 +2,7 @@
   "name": "city-council-minutes",
   "title": "Data from the published City Council Minutes",
   "profile": "tabular-data-package",
-  "last_modified": "2017-03-01",
+  "last_modified": "2017-03-06",
   "licenses": [
     {
       "name": "Open Data Commons Public Domain",
@@ -14,59 +14,36 @@
     {
       "name": "city-council-minutes",
       "data": [
-        "city-council-minutes-1901-1940.csv"
+        "city-council-minutes-1867-1940.csv"
       ],
       "schema": {
         "fields": [
           {
-            "name": "id",
+            "name": "record_id",
+            "type": "string",
+            "description": "The original record-id. Assigned by the City Council. Usually has the following format: serialnumber underscore year. If the agenda item does not refer to any record-id the following format is used: 'U' + date of meeting + page."
+          },
+          {
+            "name": "date_of_meeting",
+            "type": "string",
+            "format": "date",
+            "description": "The date of the City Council meeting."
+          },
+          {
+            "name": "page_number",
             "type": "integer",
-            "description": "Curated id. Only unique within this dataset."
+            "description": "The page-number from the annually printet minutes."
           },
           {
-            "name": "county",
+            "name": "page_url",
             "type": "string",
-            "description": "The county of which the parish is part."
+            "format": "url",
+            "description": "Link to the scanned page."
           },
           {
-            "name": "parish",
+            "name": "transcribed_text",
             "type": "string",
-            "description": "The parish  which the location is situated."
-          },
-          {
-            "name": "location",
-            "type": "string",
-            "description": "Specific location of the building."
-          },
-          {
-            "name": "location_number",
-            "type": "integer",
-            "description": "The number of the building."
-          },
-          {
-            "name": "family_number",
-            "type": "integer",
-            "description": "The number of the family."
-          },
-          {
-            "name": "lastnames",
-            "type": "string",
-            "description": "Lastname(s) of the person."
-          },
-          {
-            "name": "firstnames",
-            "type": "string",
-            "description": "Firstname(s) of the person."
-          },
-          {
-            "name": "gender",
-            "type": "string",
-            "description": "Male og female. Possibly blank."
-          },
-          {
-            "name": "family_position",
-            "type": "string",
-            "description": "Personal position in the household."
+            "description": "The transcribed text from the specific agenda item dealing with the aforementioned record-id."
           }
         ]
       }
