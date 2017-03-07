@@ -1,4 +1,4 @@
-## DESCRIPTION
+### DESCRIPTION
 The City Council minutes datasets consist of the transcribed and proof-read text from the annually printed minutes. Text from one specific agenda item on one specific page produces one row. If the same agenda item runs across several pages, it just produces several rows of text.
 
 Each row has the following columns:
@@ -23,10 +23,13 @@ Each row has the following columns:
    The transcribed text
 
 
-## STATUS (2017-03-07)
+
+### STATUS (2017-03-07)
 The datasets currently contain unvalidated record_ids. They also lack the original subjects assigned to them by the City Counsil itself in accordance with their own home-spun thesaurus.
 
-## ROADMAP
+
+
+### ROADMAP
 In a couple of weeks most record_ids will be validated. However, the datasets will continue to contain some unknown ids.
 
 Furthermore, most agenda items will have the originally assigned subject(s) added.
