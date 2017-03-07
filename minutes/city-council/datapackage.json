@@ -33,12 +33,12 @@
             "name": "page_url",
             "type": "string",
             "format": "url",
-            "description": "Link to the scanned page on which the transcribed text is based. Each link opens on a specific page, but the pdf-file covers the entire City Council meeting."
+            "description": "Link to the original scanned page. Each link opens on the requested page of the file, but the file covers the entire City Council meeting."
           },
           {
             "name": "record_ids",
             "type": "string",
-            "description": "The original record-id(s) assigned by the City Council. Usually has the following format: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
+            "description": "The original record-id(s) assigned by the City Council. Usually: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
           },
           {
             "name": "text",
@@ -70,12 +70,12 @@
             "name": "page_url",
             "type": "string",
             "format": "url",
-            "description": "Link to the scanned page on which the transcribed text is based. Each link opens on a specific page, but the pdf-file covers the entire City Council meeting."
+            "description": "Link to the original scanned page. Each link opens on the requested page of the file, but the file covers the entire City Council meeting."
           },
           {
             "name": "record_ids",
             "type": "string",
-            "description": "The original record-id(s) assigned by the City Council. Usually has the following format: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
+            "description": "The original record-id(s) assigned by the City Council. Usually: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
           },
           {
             "name": "text",
@@ -107,12 +107,12 @@
             "name": "page_url",
             "type": "string",
             "format": "url",
-            "description": "Link to the scanned page on which the transcribed text is based. Each link opens on a specific page, but the pdf-file covers the entire City Council meeting."
+            "description": "Link to the original scanned page. Each link opens on the requested page of the file, but the file covers the entire City Council meeting."
           },
           {
             "name": "record_ids",
             "type": "string",
-            "description": "The original record-id(s) assigned by the City Council. Usually has the following format: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
+            "description": "The original record-id(s) assigned by the City Council. Usually: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
           },
           {
             "name": "text",
@@ -144,12 +144,12 @@
             "name": "page_url",
             "type": "string",
             "format": "url",
-            "description": "Link to the scanned page on which the transcribed text is based. Each link opens on a specific page, but the pdf-file covers the entire City Council meeting."
+            "description": "Link to the original scanned page. Each link opens on the requested page of the file, but the file covers the entire City Council meeting."
           },
           {
             "name": "record_ids",
             "type": "string",
-            "description": "The original record-id(s) assigned by the City Council. Usually has the following format: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory notes to a meeting."
+            "description": "The original record-id(s) assigned by the City Council. Usually: serialnumber underscore year. Multiple id's are listet in square brackets. Agenda item without references to record-ids has the following format: 'U' + date of meeting + pagenumber. Blank values indicate introductory text to a meeting."
           },
           {
             "name": "text",
