@@ -23,10 +23,8 @@ Each row has the following columns:
    The transcribed text
 
 
-
 ### STATUS (2017-03-07)
 The datasets currently contain unvalidated record_ids. They also lack the original subjects assigned to them by the City Counsil itself in accordance with their own home-spun thesaurus.
-
 
 
 ### ROADMAP
