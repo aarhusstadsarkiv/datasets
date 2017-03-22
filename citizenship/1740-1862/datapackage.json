@@ -19,12 +19,14 @@
       "schema": {
         "fields": [
           {
-            "name": "id",
-            "type": "integer",
-            "description": "Curated id. Only unique within this dataset."
+            "name": "arkiv",
+            "name_en": "archive",
+            "type": "string",
+            "description": "Abbreviation for the now outdated physical position of the protokol"
           },
           {
-            "name": "county",
+            "name": "bye",
+            "name_en":"city",
             "type": "string",
             "description": "The county of which the parish is part."
           },
