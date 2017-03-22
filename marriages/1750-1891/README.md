@@ -3,5 +3,7 @@ Dette datasæt indeholder oplysninger om vielser fra sognene i det tidligere År
 
 Indtastningerne omfatter tidsrummet fra 1760 og frem til 1870 og dermed to meget forskellige typer udformninger af kirkebøgerne. Indtastningen har naturligt været delt op i tiden før 1813 og efter 1814, da man på dette tidspunkt overgik til en skematisk form for opstilling af de kirkelige handlinger. For sidenhen at kunne samarbejde de to perioder har det derfor været nødvendigt med en særlig udformning af den bagved liggende datastruktur. Ved fremvisning af søgeresultatet vil man i første omgang ikke umiddelbart kunne se forskel på de to perioder, men ved at fremkalde alle basens oplysninger under den enkelte post ser man dog tydeligt forskellen.
 
+Ved kirkebogsgengivelsen under den enkelte post er der lagt vægt på at medtage de primære oplysninger for vielsen. For at lette læsningen og forståelsen af den enkelte post er der tilføjet kommaer der ikke nødvendigvis fremgår af kirkebogsteksten. Vaccinationsoplysninger er medtaget, dersom pladsen tillader det, men oftest reduceret til en forkortelse med dette udseende: [.. vacc. ..] Tilsvarende vil [...] betyde, at der i kirkebogen findes yderlig tekster på dette sted, men udeladt i denne sammenhæng, da den ikke har betydning for forståelsen af postens vielsesoplysninger.
+
 ### STATUS
 Datapackage.json-filen er endnu ikke korrekt.
