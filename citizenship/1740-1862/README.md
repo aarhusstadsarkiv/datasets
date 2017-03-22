@@ -1,5 +1,5 @@
 ### BESKRIVELSE
-Denne database indeholder oplysninger om erhvervelsen af borgerskaber i Århus Købstad i perioden fra 1740 til 1862. Denne periode er valgt for at materialet bedst muligt skal kunne bruges sammen med folketællingerne og vielserne. Gennem den samtidige transskription opnåes en bedre tilgængelighed af et normalt svært tilgængeligt materiale.
+Dette datasæt indeholder oplysninger om erhvervelsen af borgerskaber i Århus Købstad i perioden fra 1740 til 1862. Denne periode er valgt for at materialet bedst muligt skal kunne bruges sammen med folketællingerne og vielserne. Gennem den samtidige transskription opnåes en bedre tilgængelighed af et normalt svært tilgængeligt materiale.
 
 I mange større byer begyndte man tidligt at indskrive de personer, der havde fået tilkendt eller vundet borgerskab i en særlig protokol. Denne kendes i Århus allerede fra 1470 og er dermed landets ældste. Når man ville drive borgerlig næring i en købstad, måtte man som regel også aflægge ed som borger. Edsaflæggelsen foregik ved byens rådstueret og ført til protokols af rådstueskriveren. Det var forbundet med en mindre eller større afgift til magistraten at vinde borgerskab. Afgiften var tillige gradueret, efter hvilket erhverv man ville udøve - købmændene måtte betale størst afgift. Normalt indeholder de enkelte indførsler oplysninger om tidspunkt for aflæggelsen af borgereden. Efter navnet på den nye borger følger i forskellig rækkefølge oplysninger om fødested, alder, samt den profession man havde til hensigt at udøve. Dermed giver borgerskabets erhvervelse mange gode oplysninger, som kan være af betydning ved personalhistoriske undersøgelser.
 
@@ -8,4 +8,4 @@ Fra den 17. september 1787 blev der også indskrevet, hvad borgeren ville give t
 Kilde: Folket i midten (http://www.folketimidten.dk/frakilde.htm)
 
 ### STATUS
-The datapackage.json-file is not yet correct.
+Datapackage.json-filen er ikke korrekt.
