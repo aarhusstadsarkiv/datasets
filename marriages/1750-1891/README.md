@@ -1,2 +1,7 @@
+### BESKRIVELSE
+Dette datasæt indeholder oplysninger om vielser fra sognene i det tidligere Århus Amt (før 1970) omfattende perioden fra 1760 til 1870. Denne periode er valgt for at materialet bedst muligt skal kunne bruges sammen med folketællingerne. Vielsen var i datiden starten på en familiedannelse der i nogle tilfælde kan være vanskelig at stedfæste, ikke mindst for brudgommens vedkommende. Derfor er målet ligesom ved folketællingerne at indtaste sogn for sogn for et større geografisk sammenhængende område for derved gradvist bedre at kunne lokaliserer vielserne. Gennem den samtidige transskription opnåes en bedre tilgængelighed af et normalt svært tilgængeligt materiale.
+
+Indtastningerne omfatter tidsrummet fra 1760 og frem til 1870 og dermed to meget forskellige typer udformninger af kirkebøgerne. Indtastningen har naturligt været delt op i tiden før 1813 og efter 1814, da man på dette tidspunkt overgik til en skematisk form for opstilling af de kirkelige handlinger. For sidenhen at kunne samarbejde de to perioder har det derfor været nødvendigt med en særlig udformning af den bagved liggende datastruktur. Ved fremvisning af søgeresultatet vil man i første omgang ikke umiddelbart kunne se forskel på de to perioder, men ved at fremkalde alle basens oplysninger under den enkelte post ser man dog tydeligt forskellen.
+
 ### STATUS
-The datapackage.json-file is not yet correct.
+Datapackage.json-filen er endnu ikke korrekt.
