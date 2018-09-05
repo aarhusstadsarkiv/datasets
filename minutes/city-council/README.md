@@ -1,9 +1,9 @@
 ### STATUS (2017-03-07)
-The datasets currently contain unvalidated record_ids. They also lack the original subjects assigned to them by the City Counsil itself in accordance with their own home-spun thesaurus.
+The datasets currently contain unvalidated record_ids. They also lack the original subjects assigned to them by the City Council itself in accordance with their own home-spun thesaurus.
 
 
 ### DESCRIPTION
-The City Council minutes datasets consist of the transcribed and proof-read text from the annually printed minutes. Text from one specific agenda item on one specific page produces one row. If the same agenda item runs across several pages, it just produces several rows of text.
+The datasets consist of the transcribed and proof-read text from the annually printed minutes. Text from one specific agenda item on one specific page produces one row. If the same agenda item runs across several pages, it just produces several rows of text.
 
 Each row has the following columns:
 - date_of_meeting
