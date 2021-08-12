@@ -1,16 +1,16 @@
-cff-version: 1.1.0
-authors: 
-- affiliation: "Aarhus City Archives"
-  family-names: Knudsen
-  given-names: "Claus Juhl"
+cff-version: 1.2.0
+authors:  
+- family-names: Knudsen
+  given-names: Claus Juhl
+  affiliation: Aarhus City Archives
 contact:
-  - email: "stadsarkiv@aarhus.dk"
-    name: "Aarhus City Archives"
-license: "CC-BY-4.0"
-license-url: "https://creativecommons.org/licenses/by/4.0"
-url: "https://github.com/aarhusstadsarkiv/datasets"
+- email: stadsarkiv@aarhus.dk
+  name: Aarhus City Archives
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0
+url: https://github.com/aarhusstadsarkiv/datasets
 type: dataset
-title: "Aarhus City Archives Datasets, Censuses 1787-1860"
-message: "If you use one or more of these censuses, please cite them using these metadata."
+title: Aarhus City Archives Datasets, Censuses 1787-1860
+message: If you use one or more of these censuses, please cite them using these metadata.
 date-released: 2017-03-22
-repository: "https://github.com/aarhusstadsarkiv/datasets/tree/master/censuses"
+repository: https://github.com/aarhusstadsarkiv/datasets/tree/master/censuses
