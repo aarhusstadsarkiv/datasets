@@ -4,14 +4,13 @@ authors:
 contact:
 - email: stadsarkiv@aarhus.dk
   name: Aarhus City Archives
-license: CC-BY-4.0
-license-url: https://creativecommons.org/licenses/by/4.0
+license: PDDL-1.0
+license-url: http://opendatacommons.org/licenses/pddl/1.0/
 url: https://github.com/aarhusstadsarkiv/datasets
 title: Aarhus City Archives Online Datasets
 abstract: >-
   Online and open datasets from Aarhus City Archives.
-  The datasets have been produced through both manual voluntary labour and automatic
-  processing, and we do not guarantee for the complete correctness of the transcriptions.
+
   In case of doubt or a wish or requirement to view the original archival material, please
   contact Aarhus City Archives.
 message: >-
