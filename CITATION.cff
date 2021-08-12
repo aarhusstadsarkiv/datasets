@@ -7,7 +7,7 @@ contact:
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0
 url: https://github.com/aarhusstadsarkiv/datasets
-title: Aarhus City Archives Datasets
+title: Aarhus City Archives Online Datasets
 abstract: >-
   Online and open datasets from Aarhus City Archives.
   The datasets have been produced through both manual voluntary labour and automatic
@@ -19,10 +19,10 @@ message: >-
   title with the name of the specific dataset(s) used. A couple of examples.
 
   If you have used the censuses from the years 1787 and 1801, cite like so: 
-    'Aarhus City Archives Datasets, Censuses 1787 and 1801'
+    'Aarhus City Archives Online Datasets. Censuses 1787 and 1801'
   
   If you have used the City Council Minutes from 1915 through 1940, cite like so:
-    'Aarhus City Archives Datasets, City Council Minutes 1915-1940'
+    'Aarhus City Archives Online Datasets. City Council Minutes 1915-1940'
 date-released: 2021-08-12
 repository: https://github.com/aarhusstadsarkiv/datasets
 version: "2ec5655"
