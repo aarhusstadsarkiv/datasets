@@ -4,17 +4,21 @@ This is the home for some of our curated datasets. Some of the datasets are save
 * A single "datapackage.json"-file that describes the structure and contents of the package
 * One or more csv-files that constitute the contents of the package
 
-## Censuses
+## License
+All datasets are published under a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/).
+
+## Current datasets
+### Censuses
 We have transcribed versions of the censuses from 1787, 1801, 1834, 1845 and 1860 from Randers, Skanderborg, Viborg og Aarhus.
 
-## Citizenship Records
+### Citizenship Records
 We currently have transcribed versions of the citizenship records from 1740 to 1862.
 
-## Marriage Records
+### Marriage Records
 We currently have transcribed versions of the marriage records from 1750 to 1891.
 
-## City Council Minutes
+### City Council Minutes
 We have transcribed the minutes from the City Council of Aarhus from 1867 to 1940.
 
-## Parish Council Minutes
+### Parish Council Minutes
 We have transkribed minutes from most local Parish Councils for the years 1940 to 1945.
