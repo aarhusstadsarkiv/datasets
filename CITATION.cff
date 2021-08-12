@@ -1,8 +1,8 @@
-cff-version: 1.2.0
+cff-version: 1.1.0
 authors: 
 - affiliation: "Aarhus City Archives"
   family-names: Knudsen
-  given-names: Claus Juhl
+  given-names: "Claus Juhl"
 contact:
   - email: "stadsarkiv@aarhus.dk"
     name: "Aarhus City Archives"
