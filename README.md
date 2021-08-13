@@ -10,13 +10,13 @@ All datasets are published under a [Open Data Commons Public Domain Dedication a
 ## Citation
 A CITATION.cff file is included for the automatic generation of BibTeX and APA-style citation.
 
-Due to the structure of the collection (including diverging datasets in one repository), we are limited to a single generic citation file. Therefore we would greatly appreciate it, if you add the name(s) of the specific datasets, that you have used, to the automatically generated citation. A couple of APA-styled examples.
+Due to the structure of the collection (including diverging datasets in a single repository), we are limited to a single generic citation file. Therefore we would greatly appreciate, if you add the name(s) of the specific datasets, that you have used, to the automatically generated citation. A couple of APA-styled examples.
 
-- If you have used the censuses from the years 1787 and 1801, final citation should look like this:
+- If you have used the censuses from the years 1787 and 1801, the final citation should look like this:
 
   *Aarhus City Archives. (2021). Aarhus City Archives Online Datasets (version 2ec5655). Censuses 1787 and 1801*
   
-- If you have used the City Council Minutes from 1915 through 1940, final citation should look like this:
+- If you have used the City Council Minutes from 1915 through 1940, the final citation should look like this:
 
   *Aarhus City Archives. (2021). Aarhus City Archives Online Datasets (version 2ec5655). City Council Minutes 1915-1940*
 
