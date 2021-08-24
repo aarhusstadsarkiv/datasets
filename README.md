@@ -34,7 +34,7 @@ We currently have transcribed versions of the citizenship records from 1740 to 1
 We currently have transcribed versions of the marriage records from 1750 to 1891.
 
 ### City Council Minutes
-We have transcribed the minutes from the City Council of Aarhus from 1867 to 1940.
+We have transcribed the minutes from the City Council of Aarhus from 1867 to 1945.
 
 ### Parish Council Minutes
 We have transkribed minutes from most local Parish Councils for the years 1940 to 1945.
